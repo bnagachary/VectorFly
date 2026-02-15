@@ -1,0 +1,26 @@
+{
+  "name": "vectorfly",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "db:reset": "npm run db:reset -w packages/database",
+    "vercel:deploy": "vercel --prod",
+    "vercel:preview": "vercel"
+  },
+  "devDependencies": {
+    "turbo": "^1.12.0",
+    "prettier": "^3.2.0",
+    "typescript": "^5.3.0",
+    "@types/node": "^20.11.0"
+  }
+}

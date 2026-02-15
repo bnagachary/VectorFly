@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "providers": {
+      "googleSignIn": {
+        "oAuthBrandDisplayName": "VectorFly Market",
+        "supportEmail": "chary.naga@gmail.com"
+      }
+    }
+  }
+}

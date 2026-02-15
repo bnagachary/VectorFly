@@ -1,0 +1,8 @@
+# Vercel Deployment
+
+# Environment variables
+.vercel
+.env*.local
+
+# Keep .env.example for reference
+!.env.example
