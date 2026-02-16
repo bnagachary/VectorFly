@@ -1,6 +1,6 @@
 # VectorFly Monorepo
 
-This is a monorepo for the VectorFly platform, managed with [Turborepo](https://turbo.build) and npm workspaces.
+This is a monorepo for the VectorFly platform, managed with [Turborepo](https://turbo.build) and npm workspaces. second deploy
 
 ## Structure
 
